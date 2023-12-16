@@ -38,7 +38,7 @@ export default function Abouts(){
     <section className="about-us">
       <div className="row">
         <div className="about-col">
-          <h1>We are the world's largest University</h1>
+          <h1>We are the worlds largest University</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
             cumque in accusantium molestias maiores fuga vitae eos, ducimus

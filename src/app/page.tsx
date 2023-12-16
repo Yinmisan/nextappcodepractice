@@ -22,12 +22,12 @@ export default function Home() {
   };
 
 
-  return (  <>
-    <Head><>
+  return (  <div>
+    <Head>
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Xplore Skill - Sagar Developer</title>
+  <title>Xplore Skill  Sagar Developer</title>
   <link rel="stylesheet" href="style.css" />
   <link
     rel="stylesheet"
@@ -37,16 +37,10 @@ export default function Home() {
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
   />
-</>
- </Head>
-  
-  <section className="header">
+</Head>
+ <section className="header">
     <nav>
-    <a href="/" className="logo">
-        Xplore
-        <i className="fa-brands fa-staylinked" />
-        kill
-      </a>
+    <a href="/" className="logo"> Xplore <i className="fa-brands fa-staylinked" /> kill </a>
       <div className="nav-links" id="navLinks">
         {/* Reposnive bar open and close */}
       
@@ -276,7 +270,7 @@ export default function Home() {
     </p>
   </section>
   {/* Footer Section End */}
-</>
+  </div>
 
   )
 }
